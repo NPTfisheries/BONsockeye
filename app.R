@@ -23,11 +23,9 @@ library(htmltools)
 ###########################
 #### Connect to Survey 1,2,3 and Pull Data ----
 # ArcGIS credentials
-client_id     <- Sys.getenv("ARCGIS_CLIENT_ID")
-client_secret <- Sys.getenv("ARCGIS_CLIENT_SECRET")
-# client_id <- "EdogcJszarOhZxmy"
-# client_secret <- "fafe3a4778064f00adaad1814fe9ab1d"
-token_url <- "https://www.arcgis.com/sharing/rest/oauth2/token"
+client_id     <- "EdogcJszarOhZxmy"
+client_secret <- "fafe3a4778064f00adaad1814fe9ab1d"
+token_url     <- "https://www.arcgis.com/sharing/rest/oauth2/token"
 
 # Function to get a new token using client credentials flow
 get_new_token <- function(client_id, client_secret) {
