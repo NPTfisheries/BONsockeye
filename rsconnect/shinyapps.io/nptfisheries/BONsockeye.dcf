@@ -1,0 +1,10 @@
+name: BONsockeye
+title:
+username: nptfisheries
+account: nptfisheries
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17497174
+bundleId: 12114514
+url: https://nptfisheries.shinyapps.io/BONsockeye/
+version: 1
