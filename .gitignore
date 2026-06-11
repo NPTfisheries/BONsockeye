@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+renv/library/
+renv/staging/
+rsconnect/
+.DS_store
